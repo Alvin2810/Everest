@@ -1,0 +1,23 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+
+table {
+  margin:auto;
+}
+
+.code{
+  text-align: right;
+}
+th {
+  text-align:left;
+  font-size: 22px;
+}
+
+td{
+  padding-top: 10px;
+  font-size: 18px;
+}
