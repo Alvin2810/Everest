@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="group.css" type="text/css">
+  <title>Registration form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form>
+    <table>
+      <tr><th colspan="6">Name:</th></tr>
+      <tr>
+        <td>First:</td>
+        <td><input type="text"></td>
+        <td class= "code">Middle:</td>
+        <td><input type="text" placeholder="Optional"></td>
+        <td>Last:</td>
+        <td><input type="text"></td>
+      </tr>
+
+
+      <tr class= gender>
+        <td><label>Male<input type="radio" name="gender"></label></td>
+        <td colspan="5"><label>Female<input type="radio" name="gender"></label></td>
+      </tr>
+      <tr>
+        <td>Date of birth:</td>
+        <td colspan="5"><input type="date"></td>
+      </tr>
+      <tr><th colspan="6">Address:</th></tr>
+      <tr>
+        <td>Street Address line 1:</td>
+        <td colspan="5"><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Street Address line 2:</td>
+        <td colspan="5"><input type="text"></td>
+      </tr>
+      <tr>
+        <td>City:</td>
+        <td><input type="text"></td>
+        <td>State/Province:</td>
+        <td colspan="3"><select>
+          <option>NT</option>
+          <option>NSW</option>
+          <option>ACT</option>
+          <option>VIC</option>
+          <option>TAS</option>
+          <option>QLD</option>
+          <option>WA</option>
+          <option>SA</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Postal Code:</td>
+        <td colspan = "5"><input type="text"></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td colspan="5"><input type="text"></td>
+        </tr>
+        <tr>
+          <td>Telephone number:</td>
+          <td class="code"><input type="text" size=1 placeholder="Code"></td>
+          <td colspan="4"><input type="text"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
