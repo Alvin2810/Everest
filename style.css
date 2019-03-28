@@ -1,0 +1,19 @@
+header {
+  background-color: #EEE;
+  color: black;
+  text-align: center;
+}
+
+
+table {
+  position: relative;
+  left:500px;
+}
+
+body{
+  background-color: #FFC0CB;
+}
+
+h1{
+  text-align: center;
+}
