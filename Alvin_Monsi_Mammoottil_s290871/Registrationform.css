@@ -1,0 +1,24 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+
+
+form span {
+  font-size: 23px;
+  font-weight: bold;
+  position:relative;
+  left: 750px;
+  top:15px;
+}
+
+form div{
+  font-size: 18px;
+  font-style: italic;
+  position:relative;
+  left: 750px;
+  margin: 20px;
+  margin-left: 0px;
+}
