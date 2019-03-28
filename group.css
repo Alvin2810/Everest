@@ -1,8 +1,18 @@
 body {
-  background-color: lightpink;
+  background-color: pink;
 }
 h1 {
+  background-color: white;
   text-align: center;
+  text-shadow: 1px 1px 2px pink;
+  font-size: 42.5px;
+  border-color: white;
+  border-style:   solid;
+  border-radius:25px;
+  border-width: 5px;
+  margin-left: 450px;
+  margin-right: 450px;
+
 }
 
 table {
@@ -10,11 +20,14 @@ table {
 }
 th {
   text-align:left;
+  text-shadow: 1px 1px 2px lightblue;
   font-size: 22px;
+  padding-left: 5px;
 }
 
 td{
+  font-size: 18px;
   padding-top: 10px;
   padding-left: 5px;
-  font-size: 18px;
+
 }
